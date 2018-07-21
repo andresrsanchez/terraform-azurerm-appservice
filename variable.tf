@@ -7,7 +7,7 @@ variable "sku_size" {
 }
 
 variable "resource_group_name" {
-  description = "Resource group name that the database will be created in."
+  description = "Resource group name."
 }
 
 variable "app_service_name" {
