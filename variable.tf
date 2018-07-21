@@ -1,9 +1,11 @@
 variable "sku_tier" {
   description = "App service SKU"
+  default     = "Basic"
 }
 
 variable "sku_size" {
   description = "App service SKU"
+  default     = "B1"
 }
 
 variable "resource_group_name" {
